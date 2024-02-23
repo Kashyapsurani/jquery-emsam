@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styel.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-animated-headlines@1.0.0/dist/css/jquery.animatedheadline.min.css">
+</head>
+<body>
+    
+    <div class="selector">
+        <h1 class="ah-headline">
+            <span>Img Of</span>
+            <span class="ah-words-wrapper">
+                <b class="is-visible">Senset </b>
+                <b>Rainbow</b>
+                <b>River</b>
+                <b>Greenery</b>
+                <b>Monsun</b>
+                <b>Sunset</b>
+                <b>Flower</b>
+            </span>
+        </h1>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-animated-headlines@1.0.0/dist/js/jquery.animatedheadline.min.js"></script>
+
+    <script>
+        $(function() {
+            $('.selector').animatedHeadline();
+            $('.selector').animatedHeadline({
+            animationType: 'type'
+        });
+
+        })
+    </script>
+</body>
+</html>
